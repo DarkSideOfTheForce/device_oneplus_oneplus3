@@ -192,9 +192,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     qcom.bluetooth.soc=rome
 
-# Camera
+# GCam
 PRODUCT_PACKAGES += \
-    Snap \
+    GCam \
     libcamera_parameters_shim \
     libcamera_shim \
     camera.device@1.0-impl \
