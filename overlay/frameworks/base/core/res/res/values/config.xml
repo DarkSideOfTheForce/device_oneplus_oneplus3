@@ -460,8 +460,8 @@
             32 - Camera
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7.
-    <integer name="config_deviceHardwareWakeKeys">64</integer> -->
+         config to 7.-->
+    <integer name="config_deviceHardwareWakeKeys">64</integer>
 
     <!-- Control the behavior when the user long presses the app switch button.
             0 - Nothing
@@ -479,11 +479,11 @@
 
     <!-- Flag specifying whether or not IMS will use the ImsResolver dynamically -->
     <bool name="config_dynamic_bind_ims">true</bool>
-    
-    <!-- Internal default to navigation bar value -->
-    <bool name="config_defaultToNavigationBar">false</bool>
-
-    <!-- Whether device has physical tri state switch -->
-    <bool name="config_hasAlertSlider">true</bool>
-
 </resources>
+   
+  
+
+
+
+
+
